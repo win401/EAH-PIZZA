@@ -1,0 +1,25 @@
+/* ResponsiveText.css */
+.responsive-text-container {
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+  color: black;
+}
+
+.description {
+  font-size: 16px;
+  color: gray;
+}
+
+/* 미디어 쿼리를 사용하여 화면 크기에 따라 스타일 변경 */
+@media (min-width: 768px) {
+  .text {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}

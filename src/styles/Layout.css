@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  color: #fff;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  justify-content: space-around;
+  width: 100%;
+  background: #d0000d;
+}
+
+p,
+ul {
+  margin: 15px 0;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  position: relative;
+}
+
+li::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  transition: 0.3s;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 16px;
+  }
+
+  nav p {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+.swiper_wrapper {
+  height: 100vh;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img:nth-of-type(1) {
+  width: 100%;
+  transform: translateY(-170px);
+}
+
+.slide .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+  .swiper_wrapper {
+    height: 500px;
+  }
+
+  .slide img:nth-of-type(1) {
+    /* width: 100%; */
+    transform: translateY(10px);
+  }
+
+  .slide .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
