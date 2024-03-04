@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/eah-pizza/static/css/main.4943ef1c.css",
-    "main.js": "/eah-pizza/static/js/main.93c81a93.js",
+    "main.js": "/eah-pizza/static/js/main.a450f64f.js",
     "index.html": "/eah-pizza/index.html",
     "main.4943ef1c.css.map": "/eah-pizza/static/css/main.4943ef1c.css.map",
-    "main.93c81a93.js.map": "/eah-pizza/static/js/main.93c81a93.js.map"
+    "main.a450f64f.js.map": "/eah-pizza/static/js/main.a450f64f.js.map"
   },
   "entrypoints": [
     "static/css/main.4943ef1c.css",
-    "static/js/main.93c81a93.js"
+    "static/js/main.a450f64f.js"
   ]
 }
