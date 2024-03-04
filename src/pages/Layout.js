@@ -1,6 +1,6 @@
 // Layout.js
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, Navigate } from "react-router-dom";
 import "../styles/Layout.css";
 
 const Layout = () => {
@@ -25,6 +25,8 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+
+      <Navigate to="/" />
     </>
   );
 };
