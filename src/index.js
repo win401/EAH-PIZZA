@@ -13,6 +13,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* 기본 경로에 대한 라우트 추가 */}
+        <Route path="/" element={<Home />} />
+
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="Menu" element={<Menu />} />
